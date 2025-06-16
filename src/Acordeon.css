@@ -1,0 +1,117 @@
+/* Acordion.css */
+.dance-accordion {
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.accordion {
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+  border: none !important;
+  margin-bottom: 15px;
+  background-color: #fff;
+  border-radius: 8px !important;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.accordion-header {
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+
+.accordion-button {
+  background-color: #8e44ad !important;
+  color: white !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 1.25rem 1.5rem !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #7d3c98 !important;
+}
+
+.accordion-button:hover {
+  background-color: #9b59b6 !important;
+  transform: translateY(-2px);
+}
+
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+  background-size: 1.2rem;
+}
+
+.dance-content {
+  padding: 1rem;
+}
+
+.dance-content h4 {
+  color: #8e44ad;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.dance-content p {
+  color: #2c3e50;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.dance-content ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.dance-content li {
+  margin-bottom: 0.75rem;
+  color: #34495e;
+}
+
+.dance-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.dance-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.dance-image:hover {
+  transform: scale(1.02);
+}
+
+.active-item {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(142, 68, 173, 0.2);
+}
+
+/* Iconos */
+.fas {
+  margin-right: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .dance-gallery {
+    grid-template-columns: 1fr;
+  }
+  
+  .accordion-button {
+    font-size: 1rem;
+    padding: 1rem !important;
+  }
+}

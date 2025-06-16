@@ -1,0 +1,23 @@
+.titulo-container {
+  text-align: center;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, #8e44ad, #9b59b6);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(142, 68, 173, 0.3);
+}
+
+.titulo-principal {
+    font-family: Burger Chesse;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-secundario {
+  font-size: 1.25rem;
+  font-weight: 400;
+  opacity: 0.9;
+}

@@ -1,0 +1,108 @@
+/* Estilos para el grupo de cards */
+.card-group {
+  margin: 2rem 0;
+  gap: 20px;
+}
+
+/* Estilos individuales para cada card */
+.card {
+  border-radius: 15px !important;
+  overflow: hidden;
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 0.75rem;
+}
+
+.card-subtitle {
+  font-weight: 500;
+  color: #7f8c8d !important;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: #34495e;
+  margin-bottom: 1.5rem;
+}
+
+/* Botones de las cards */
+.card-btn {
+  background-color: #8e44ad !important;
+  border: none !important;
+  padding: 0.5rem 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.card-btn:hover {
+  background-color: #9b59b6 !important;
+  transform: translateY(-2px);
+}
+
+/* Modales */
+.modal-content {
+  border-radius: 15px;
+  border: none;
+  overflow: hidden;
+}
+
+.modal-header {
+  background-color: #8e44ad;
+  color: white;
+  border-bottom: none;
+  padding: 1.5rem;
+}
+
+.modal-title {
+  font-weight: 700;
+}
+
+.modal-body {
+  padding: 2rem;
+  color: #2c3e50;
+}
+
+.modal-body ul {
+  padding-left: 1.5rem;
+}
+
+.modal-body li {
+  margin-bottom: 0.5rem;
+}
+
+.modal-footer {
+  border-top: none;
+  padding: 1rem 1.5rem;
+  background-color: #f8f9fa;
+}
+
+.modal-img {
+  border-radius: 10px;
+  margin-top: 1rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.close {
+  color: white !important;
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
