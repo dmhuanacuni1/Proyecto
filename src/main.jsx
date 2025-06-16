@@ -10,7 +10,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Principal from './Principal.jsx';
 
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <BrowserRouter basename='/Proyecto'>
     <Principal></Principal>
   </BrowserRouter>
 )
